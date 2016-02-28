@@ -1,1 +1,3 @@
-$('body').scrollspy({target: '.navbar'})
+$(function() {
+	$('[data-toggle="tooltip"]').tooltip()
+});
