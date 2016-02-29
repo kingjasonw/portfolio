@@ -1,3 +1,11 @@
+body {
+	position: relative;
+}
+
+.anchor {
+	padding-top: 50px;
+}
+
 /* navbar */
 .container-fluid {
 	background-color: #000000;
@@ -8,6 +16,7 @@
 	font-family: 'Roboto-slab', serif;
 	font-weight: 400;
 	font-size: 1.2em;
+	text-align: center;
 }
 
 #brand a {
@@ -21,6 +30,14 @@
 	font-family: 'Roboto-slab', serif;
 	font-weight: 100;
 	color: #B9B9B9;
+}
+
+#hamburger {
+	background-color: #B9B9B9;
+}
+
+#hamburger .icon-bar {
+	background-color: #000000;
 }
 
 
@@ -56,15 +73,19 @@
 	color: #000000;
 	margin-right: 10%;
 	margin-top: -20px;
+	z-index: 2;
 }
 
 #about-image {
 	border-radius: 50%;
 	max-width: 300px;
 	float: right;
+	opacity: .99;
+	z-index: 1;
 }
 
 #about {
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
@@ -80,13 +101,13 @@
 	text-align: center;
 	font-family: 'Roboto-slab', serif;
 	font-weight: 700;
-	font-size: 7em;
+	font-size: 9em;
 	color: #000000;
 }
 
 #work-images {
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -98,35 +119,30 @@
 
 /* contact */
 
+#contact-sm {
+	display: none;
+}
+
 #contact {
 	background-color: #e6e7e8;
-	margin-top: 0;
-	margin-bottom: 2%;
-}
-
-#contact-icons {
-	text-align: center;
-	padding-top: 20%;
-	padding-bottom: 20%;
-}
-
-#contact-icons img {
-	width: 65px;
-}
-
-#contact-icons a {
-	padding-left: 20px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 5%;
 }
 
 #contact h1 {
-	text-align: center;
 	font-family: 'Roboto-slab', serif;
+	font-size: 8em;
 	font-weight: 700;
-	font-size: 7em;
 	color: #000000;
-	padding-top: 30%;
-	padding-right: 5%;
+	vertical-align: text-top;
+	
 }
+
+#contact-lg {
+	float: right;
+}
+
 
 /* footer */
 
@@ -135,4 +151,57 @@ footer {
 	font-family: 'Roboto-slab', serif;
 	font-weight: 400;
 	color: #000000;
+	margin-top: 2%;
 }
+
+/* mobile */ 
+
+@media (max-width: 768px) {
+	#about-left p {
+		margin-right: 5%;
+		margin-left: 6%;
+	}
+
+	#about-right h1 {
+		margin-right: 12%;
+	}
+
+	#work-images {
+		padding-top: 0;
+	}
+
+	#work {
+		padding-top: 0;
+	}
+
+	#contact {
+		padding-top: 0;
+	}
+
+	#contact h1 {
+		padding-top: 0;
+		font-size: 8em;
+	}
+
+	#contact-icons {
+		padding-top: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#contact-icons img {
+		width: 100%;
+	}
+
+	#contact-sm {
+		display: block;
+		text-align: center;
+	}
+
+	#contact-lg {
+		display: none;
+	}
+}
+
+
