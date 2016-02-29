@@ -135,8 +135,10 @@ body {
 	font-size: 8em;
 	font-weight: 700;
 	color: #000000;
-	vertical-align: text-top;
-	
+}
+
+#contact-icons img {
+	margin-top: 65px;
 }
 
 #contact-lg {
@@ -185,13 +187,13 @@ footer {
 
 	#contact-icons {
 		padding-top: 5%;
-		padding-bottom: 10%;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 
 	#contact-icons img {
 		width: 100%;
+		margin-top: 0;
 	}
 
 	#contact-sm {
