@@ -3,6 +3,7 @@
 <head>
 	<title>Jason King | Web Developer</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- links -->
 	<link rel="stylesheet" href="css/styles.css">
   <!-- Latest compiled and minified CSS -->
@@ -61,7 +62,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-lg-pull-6 col-md-6 col-md-pull-6 col-sm-12 col-xs-12" id="about-left">
-        <p style="text-indent: 3em">i'm a full stack web developer from the philadelphia area. I build websites using HTML, CSS, JavaScript, jQuery, and Ruby on Rails.<br><span style="margin-left: 3em"></span>Taxidermy literally kogi listicle crucifix, banjo kickstarter bicycle rights artisan locavore. Humblebrag chambray ennui, kogi farm-to-table small batch hoodie squid godard organic lomo 3 wolf moon tattooed messenger bag XOXO. Food truck +1 quinoa, four loko cardigan ugh synth organic helvetica authentic hoodie man braid butcher health goth. Deep v before they sold out keffiyeh, scenester waistcoat ramps locavore ugh salvia shabby chic sustainable. Forage retro single-origin coffee, humblebrag aesthetic flexitarian literally umami kickstarter fingerstache. Swag kitsch roof party 90's salvia brunch semiotics pinterest pork belly. Food truck organic craft beer keffiyeh fingerstache.</p>
+        <p style="text-indent: 2em">i'm a full stack web developer from the philadelphia area. I build websites using HTML, CSS, JavaScript, jQuery, and Ruby on Rails.<br><span style="margin-left: 2em"></span>Taxidermy literally kogi listicle crucifix, banjo kickstarter bicycle rights artisan locavore. Humblebrag chambray ennui, kogi farm-to-table small batch hoodie squid godard organic lomo 3 wolf moon tattooed messenger bag XOXO. Food truck +1 quinoa, four loko cardigan ugh synth organic helvetica authentic hoodie man braid butcher health goth. Deep v before they sold out keffiyeh, scenester waistcoat ramps locavore ugh salvia shabby chic sustainable. Forage retro single-origin coffee, humblebrag aesthetic flexitarian literally umami kickstarter fingerstache. Swag kitsch roof party 90's salvia brunch semiotics pinterest pork belly. Food truck organic craft beer keffiyeh fingerstache.</p>
       </div>
     </div>
   </div>
@@ -73,17 +74,76 @@
       </div> 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="row" id="thumbs">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <img src="img/blog.png" class="img-responsive">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="modal" data-target="#ttmodal">
             <img src="img/turntable.png" class="img-responsive">
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <!-- Modal -->
+          <div class="modal fade" id="ttmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h3 class="modal-title" id="myModalLabel">Ecommerce site</h3>
+                </div>
+                <div class="modal-body">
+                  <p>This is an eccomerce site created for the Career Foundry Web Developer course and was built using Ruby on Rails. Customers are able to sign up for accounts, search and purchase products, and leave reviews. Administrators are able to create, edit, and destroy products, users, users, and reviews. Technology used includes HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Angular.js.</p>
+                  <h4><a href="https://careerfoundryapp.herokuapp.com/">Visit here</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="modal" data-target="#blogmodal">
             <img src="img/blog.png" class="img-responsive">
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="blogmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h3 class="modal-title" id="myModalLabel">Blog</h3>
+                </div>
+                <div class="modal-body">
+                  <p>This is a blog project I built using Ruby on Rails. As Admin, I am able to create, edit, and delete blog posts as well as manage user accounts. Users are able to create accounts and comment on articles.</p>
+                  <h4><a href="https://jkcfblog.herokuapp.com/">Visit here</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="modal" data-target="#spockmodal">
+            <img src="img/spock.png" class="img-responsive">
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="spockmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h3 class="modal-title" id="myModalLabel">Rock, Paper, Scissors, Lizard, Spock game.</h3>
+                </div>
+                <div class="modal-body">
+                  <p>This is an updated Rock, Paper, Scissors game written in Ruby. I added the two additional choices in order to improve my Ruby skills and increase the complexity over the original game. It asks players how many games they wish to play and keeps score, updating after every game.</p>
+                  <h4><a href="https://github.com/kingjasonw/Rock-Paper-Scissors-Lizard-Spock/blob/master/spock_update.rb">On Github</a></h4>
+                </div>
+              </div>
+            </div>
           </div>  
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <img src="img/turntable.png" class="img-responsive">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="modal" data-target="#portfoliomodal">
+            <img src="img/portfolio.png" class="img-responsive">
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="portfoliomodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Portfolio site</h4>
+                </div>
+                <div class="modal-body">
+                  <p>This is my portfolio site. </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </div>
