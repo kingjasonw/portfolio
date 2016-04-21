@@ -3,6 +3,7 @@
 	text-align: center;
 	margin-top: 5%;
 	display: none;
+	margin-bottom: 40%;
 }
 
 #about h1 {
@@ -39,7 +40,35 @@
 
 /* work */
 #work {
+	text-align: center;
 	display: none;
+}
+
+#work h1 {
+	font-family: 'Roboto-slab', serif;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+}
+
+#work img {
+	max-width: 300px;
+	margin: 0 auto;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+#work p {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Roboto-slab', serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+#work-images div {
+	margin-top: 5%;
 }
 
 /* mobile */ 
