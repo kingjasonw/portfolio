@@ -5,15 +5,21 @@ $(document).ready(function() {
 	
 	$('.fadein').fadeIn(2000);
 
-	$('#game').on('click', function() {
-		$('canvas').fadeIn('slow');
+	$('#showWork').on('click', function() {
+		$('#work').fadeToggle('slow');
 	});
 
-	$(document).scroll(function() {
-		var y = $(this).scrollTop();
-		if (y > 20) {
-			$('#work').fadeIn('slow');
-		}
+	$('.showDescription').on('click', function() {
+		$(this).find('.hiddenDescription').fadeToggle('slow');
 	});
+
+	$('.gameDescription').on('click', function() {
+		$('.hiddenGameDescription').fadeIn('slow');
+	});
+
+	$('#play').on('click', function() {
+		$('#gamediv').fadeIn('slow');
+	});
+ 
 });
 
