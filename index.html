@@ -26,7 +26,7 @@
       <img src="img/me.jpg" id="about-image">
       <h1>Jason King</h1>
       <h2>Web Developer</h2>      
-      <p style="text-indent: 2em">I'm a full stack web developer from the Philadelphia area. I build dynamic, responsive websites using Ruby on Rails, JavaScript, jQuery, HTML, CSS, and more.</p>
+      <p>I'm a full stack web developer from the Philadelphia area. I build dynamic, responsive websites using Ruby on Rails, JavaScript, jQuery, HTML, CSS, and more.</p>
       <h2>Get in Touch</h2>
       <div id="contact-icons">    
         <a href="mailto:kingjason222@gmail.com" data-toggle="tooltip" data-placement="left" title="kingjason222@gmail.com"><img src="img/email.png" class="img-responsive center-block"></a>
@@ -45,22 +45,59 @@
           </div>
           <img src="img/turntable.png">
         </div>
+
         <div class="showDescription" id="blog">
-          <h2>The Blog</h2>
+          <h2>Blog</h2>
           <div class="hiddenDescription">
             <p>This is a blog project I built using Ruby on Rails. As Admin, I am able to create, edit, and delete blog posts as well as manage user accounts. Users are able to create accounts and comment on articles.<br>
             <a href="https://jkcfblog.herokuapp.com/">On Heroku</a></p>
           </div>
           <img src="img/blog.png">
         </div>
-        <div class="showDescription" id="weather">
+
+        <div class="showDescription" id="weatherapi">
           <h2>OpenWeatherMap API Project</h2>
           <div class="hiddenDescription">
+            <div id="findWeather">
+            <!-- not using this yet 
+              <div id="findLocation">
+                <form>
+                  Enter City or Zipcode:
+                  <input type="text" id="locationInput"></input>
+                  <button type="submit" id="submit">Search</button>
+                </form>
+              </div>
+  
+              <div id="weather">
+                <div id="info">
+                  <button id="manualLocation"><strong><em>i</em></strong></button>
+                </div>
+              <div id="left">
+                <img src="http://openweathermap.org/img/w/10d.png" id="icon">
+                <p id="description">Cloudy</p>
+                <p id="city">Seaville</p>
+              </div>
+              <div id="right">
+                <p id="temp-lg"><span id="current">0</span>&deg</p>
+                <p>Low: <span id="low">0</span>&deg High: <span id="high">0</span>&deg</p>
+              </div>
+              <div id="bottom-left">
+                <p>Sunrise: <span id="sunrise">7:55</span></p>
+                <p>Sunset: <span id="sunset">7:55</span></p>
+              </div>
+              <div id="bottom-right">
+                <p>Humidity: <span id="humidity">0</span>%</p>
+                <p>Wind: <span id="speed">0</span> MPH <span id="direction">SW</span></p>
+              </div>
+            </div>
+          -->
+          </div>
             <p>This is a weather app built using JavaScript and the OpenWeatherMap API. It finds a user's location using geolocation and delivers weather results. It also allows users to manually input their location by city or zip code to get their weather.<br>
             <a href="http://javascript-weather-app.bitballoon.com/">On BitBalloon</a></p>
           </div>
           <img src="img/weather.png">
         </div>
+
         <div class="gameDescription" id="breakout">
           <h2>Breakout JavaScript Game</h2>
           <div class="hiddenGameDescription">
@@ -73,6 +110,7 @@
           </div>
           <img src="img/breakout.png" id="play">
         </div>
+
         <div class="showDescription" id="rps">
           <h2>Rock Paper Scissors Lizard Spock</h2>
           <div class="hiddenDescription">
