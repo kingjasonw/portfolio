@@ -7,6 +7,9 @@ $(document).ready(function() {
 
 	$('#showWork').on('click', function() {
 		$('#work').fadeToggle('slow');
+		$('body').animate( {
+    		scrollTop: $("#work").offset().top -20
+		}, 1000);
 	});
 
 	$('.showDescription').on('click', function() {
