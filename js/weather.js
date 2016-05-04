@@ -127,7 +127,7 @@ window.onload = function() {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
     else {
-        var zip = window.prompt("Could not find your location. What is your zip code?");
+        findByCity("philadelphia")
     }
 }
 

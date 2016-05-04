@@ -38,6 +38,13 @@ $(document).ready(function() {
 		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
 	});
 
+	// fade in weather and description
+	$('.weatherDescription').on('click', function() {
+		$('.hiddenWeatherDescription').fadeIn('slow');
+		$('#findWeather').fadeIn('slow');
+		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
+	});
+
 	// fade in game and description
 	$('.gameDescription').on('click', function() {
 		$('.hiddenGameDescription').fadeIn('slow');

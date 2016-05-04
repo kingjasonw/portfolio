@@ -8,6 +8,7 @@
 
   <!-- fonts -->
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
   <!-- links -->
   <link rel="stylesheet" href="css/styles.css">
@@ -43,7 +44,7 @@
     </div><!-- end about -->
     <div id="work">
       <div id="work-images">
-        <div class="showDescription" id="turntable">
+        <div class="showDescription workSection" id="turntable">
           <h2>The Turntable Shop</h2>
           <div class="hiddenDescription">
             <p>This is an ecommerce site built using Ruby on Rails. Customers are able to sign up for accounts, search and purchase products, and leave reviews. Administrators are able to create, edit, and destroy products, users, users, and reviews. Technology used includes HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, AngularJs.<br>
@@ -56,7 +57,7 @@
           </div>
         </div>
 
-        <div class="showDescription" id="blog">
+        <div class="showDescription workSection" id="blog">
           <h2>Blog</h2>
           <div class="hiddenDescription">
             <p>This is a blog project I built using Ruby on Rails. As Admin, I am able to create, edit, and delete blog posts as well as manage user accounts. Users are able to create accounts and comment on articles.<br>
@@ -69,11 +70,11 @@
           </div>
         </div>
 
-        <div class="showDescription" id="weatherapi">
+        <div class="weatherDescription" id="weatherapi">
           <h2>OpenWeatherMap API Project</h2>
-          <div class="hiddenDescription">
+          <div class="hiddenWeatherDescription">
+            <script src="js/weather.js"></script>
             <div id="findWeather">
-            <!-- not using this yet 
               <div id="findLocation">
                 <form>
                   Enter City or Zipcode:
@@ -104,10 +105,11 @@
                 <p>Wind: <span id="speed">0</span> MPH <span id="direction">SW</span></p>
               </div>
             </div>
-          -->
           </div>
+          <div class="workSection">
             <p>This is a weather app built using JavaScript and the OpenWeatherMap API. It finds a user's location using geolocation and delivers weather results. It also allows users to manually input their location by city or zip code to get their weather.<br>
             <a href="http://javascript-weather-app.bitballoon.com/">On BitBalloon</a></p>
+          </div>
           </div>
           <div class="projectImg" id="weatherImg">
             <div class="overlay">
@@ -116,7 +118,7 @@
           </div>
         </div>
 
-        <div class="gameDescription" id="breakout">
+        <div class="gameDescription workSection" id="breakout">
           <h2>Breakout JavaScript Game</h2>
           <div class="hiddenGameDescription">
             <div id="gamediv">
@@ -133,7 +135,7 @@
           </div>
         </div>
 
-        <div class="showDescription" id="rps">
+        <div class="showDescription workSection" id="rps">
           <h2>Rock Paper Scissors Lizard Spock</h2>
           <div class="hiddenDescription">
             <p>This is an updated Rock, Paper, Scissors game written in Ruby. I added the two additional choices in order to improve my Ruby skills and increase the complexity over the original game. It asks players how many games they wish to play and keeps score, updating after every game.<br>
