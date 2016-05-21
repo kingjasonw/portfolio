@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 	// fade in project descriptions and scroll
 	$('.showDescription').on('click', function() {
-		$(this).find('.hiddenDescription').fadeToggle('slow');
+		$(this).find('.hiddenDescription').fadeIn('slow');
 		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
 	});
 
