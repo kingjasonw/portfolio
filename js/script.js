@@ -22,6 +22,7 @@ $(document).ready(function() {
 	$('#showWork').on('click', function() {
 		$('#work').fadeToggle('slow');
 		$('body').animate({ scrollTop: $('#work').offset().top -20 }, 1000);
+		
 	});
 
 	// image overlay on hover
@@ -35,13 +36,6 @@ $(document).ready(function() {
 	// fade in project descriptions and scroll
 	$('.showDescription').on('click', function() {
 		$(this).find('.hiddenDescription').fadeIn('slow');
-		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
-	});
-
-	// fade in weather and description
-	$('.weatherDescription').on('click', function() {
-		$('.hiddenWeatherDescription').fadeIn('slow');
-		$('#findWeather').fadeIn('slow');
 		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
 	});
 
