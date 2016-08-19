@@ -17,6 +17,12 @@
 	color: #000000;
 }
 
+#about h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #000000;
+}
+
 #about img {
 	border-radius: 50%;
 	max-width: 200px;
@@ -28,6 +34,10 @@
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
 	font-size: 1.2em;
+	color: #000000;
+}
+
+#about-page-link a {
 	color: #000000;
 }
 

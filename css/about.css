@@ -1,0 +1,22 @@
+/* all styles for about page */
+
+#about-page {
+	margin-top: 80px;
+}
+
+#about-page h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+}
+
+#about-page p {
+	width: 70%;
+	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #000000;
+	margin-top: 20px;
+}
