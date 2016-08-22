@@ -110,6 +110,10 @@
 	margin-bottom: 20px;
 }
 
+#storeImg {
+	background-image: url(../img/store.png);
+}
+
 #tvtrackerImg {
 	background-image: url(../img/tvtracker.png);
 }
