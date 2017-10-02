@@ -39,12 +39,5 @@ $(document).ready(function() {
 		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
 	});
 
-	// fade in game and description
-	$('.gameDescription').on('click', function() {
-		$('.hiddenGameDescription').fadeIn('slow');
-		$('#gamediv').fadeIn('slow');
-		$('body').animate({ scrollTop: $(this).offset().top -20}, 1000);
-	});
-
 });
 
