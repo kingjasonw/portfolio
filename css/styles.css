@@ -98,6 +98,14 @@
 	margin-bottom: 20px;
 }
 
+#pythontvtrackerImg {
+	background-image: url(../img/pythontv.png);
+}
+
+#antcolonyImg {
+	background-image: url(../img/antcolony.png);
+}
+
 #tvtrackerImg {
 	background-image: url(../img/tvtracker.png);
 }
