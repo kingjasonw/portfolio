@@ -9,6 +9,7 @@ $(document).ready(function() {
 	// flashing glyphicon
 	setInterval(function() {
 		$('.glyphicon-hand-down').toggleClass("blueGlyphicon");
+		$('.glyphicon-cloud-download').toggleClass("blueGlyphicon");
 	}, 1000);
 
 	// glyphicon stay blue on hover
@@ -16,6 +17,12 @@ $(document).ready(function() {
 		$('.glyphicon-hand-down').css('color', 'blue');
 	}, function() {
 		$('.glyphicon-hand-down').css('color', '');
+	});
+
+	$('#resume').hover(function() {
+		$('.glyphicon-cloud-download').css('color', 'blue');
+	}, function() {
+		$('.glyphicon-cloud-download').css('color', '');
 	});
 
 	// fade in work section and scroll

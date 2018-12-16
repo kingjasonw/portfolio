@@ -23,6 +23,12 @@
 	color: #000000;
 }
 
+#about h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #000000;
+}
+
 #about img {
 	border-radius: 50%;
 	max-width: 200px;
@@ -54,6 +60,14 @@
 #showWork .glyphicon {
 	font-size: 1.5em;
 	padding-top: 10px;
+}
+
+.glyphicon:hover {
+	cursor: pointer;
+}
+
+#download:link {
+	color: black;
 }
 
 .blueGlyphicon {
